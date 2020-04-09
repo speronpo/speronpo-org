@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: #1E2D3B;
+    display: flex;
+    height: 75px;
+}
+
+header div {
+    height: 75px;
+    background: #EDCD1F;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header div img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0 0 5px 10px;
+}
+
+header div h1 {
+    float: left;
+    padding: 0 0 0 25px;
+}
+
+header div h2 {
+    float: left;
+    padding: 0 25px 0 5px;
+}
+
+
+header nav {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header nav li a {
+    padding: 10px 15px;
+}
+
+
+
+
+.sandy-stone-beach-ocean-diver-1-hex { color: #E6E2AF; }
+.sandy-stone-beach-ocean-diver-2-hex { color: #A7A37E; }
+.sandy-stone-beach-ocean-diver-3-hex { color: #EFECCA; }
+.sandy-stone-beach-ocean-diver-4-hex { color: #046380; }
+.sandy-stone-beach-ocean-diver-5-hex { color: #002F2F; }
+
+
