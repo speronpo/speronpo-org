@@ -9,7 +9,7 @@ header {
     height: 75px;
 }
 
-header div {
+div#header {
     height: 75px;
     background: #EDCD1F;
     display: flex;
@@ -17,19 +17,19 @@ header div {
     cursor: pointer;
 }
 
-header div img {
+div#header img {
     width: 60px;
     height: 60px;
     float: left;
     padding: 0 0 5px 10px;
 }
 
-header div h1 {
+div#header h1 {
     float: left;
     padding: 0 0 0 25px;
 }
 
-header div h2 {
+div#header h2 {
     float: left;
     padding: 0 25px 0 5px;
 }
@@ -48,6 +48,33 @@ header nav li {
 header nav li a {
     padding: 10px 15px;
 }
+
+div#mediaLinks {
+    background: #1E2D3B;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div#mediaLinks i.fa-instagram {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+div#mediaLinks i.fa-facebook-f {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
 
 
 
