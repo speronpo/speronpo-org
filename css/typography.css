@@ -1,4 +1,4 @@
-header {
+body {
     font-family: "Avenir", sans-serif;
 }
 
@@ -26,4 +26,17 @@ header nav li a {
 
 header nav li a:hover, header nav li a.active {
     color: #EDCD1F;
+}
+
+div.text {
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 5vw;
+    color: #FFFFFF;
+}
+
+i.fa-chevron-up, i.fa-chevron-left, i.fa-chevron-right {
+    font-size: 4vw;
+    color: #FFFFFF;
 }
