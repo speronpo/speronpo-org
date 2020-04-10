@@ -1,23 +1,23 @@
-div#mediaLinks {
+div.media {
     background: var(--dark-blue); /*1E2D3B*/
     position: fixed;
     top: 50%;
     right: 0;
     width: 50px;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
-div#mediaLinks i.fa-instagram {
+div.media i.fa-instagram {
     color: var(--off-white); /*white*/
     font-size: 40px;
     cursor: pointer;
 }
 
-div#mediaLinks i.fa-facebook-f {
+div.media i.fa-facebook-f {
     color: var(--off-white); /*white*/
     font-size: 35px;
     cursor: pointer;
