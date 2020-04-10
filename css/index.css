@@ -1,77 +1,7 @@
-body {
-    margin: 0;
-}
-
-header {
-    align-items: center;
-    background-color: #1E2D3B;
-    display: flex;
-    height: 75px;
-}
-
-div#header {
-    height: 75px;
-    background: #EDCD1F;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-div#header img {
-    width: 60px;
-    height: 60px;
-    float: left;
-    padding: 0 0 5px 10px;
-}
-
-div#header h1 {
-    float: left;
-    padding: 0 0 0 25px;
-}
-
-div#header h2 {
-    float: left;
-    padding: 0 25px 0 5px;
-}
-
-
-header nav {
-    margin-left: auto;
-    margin-right: 25px;
-}
-
-header nav li {
-    display: inline-block;
-    padding: 0 25px;
-}
-
-header nav li a {
-    padding: 10px 15px;
-}
-
-div#mediaLinks {
-    background: #1E2D3B;
-    position: fixed;
-    top: 50%;
-    right: 0;
-    width: 50px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-div#mediaLinks i.fa-instagram {
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-}
-
-div#mediaLinks i.fa-facebook-f {
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('../webfonts/proximanova-regular-webfont.woff2') format('woff2'),
+    url('../webfonts/proximanova-regular-webfont.woff') format('woff');
 }
 
 div.body {
@@ -125,6 +55,14 @@ img.rectangle {
     transition: filter 300ms;
 }
 
+div.text {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 5vw;
+    color: #FFFFFF; /*FFFFFF*/
+}
+
 div.text.topLeft {
     position: absolute;
     left: 27.77%;
@@ -144,6 +82,11 @@ div.text.bottom {
     left: 50%;
     top: calc(175px + 50vw);
     transform: translate(-50%, -50%)
+}
+
+i.fa-chevron-up, i.fa-chevron-left, i.fa-chevron-right {
+    font-size: 4vw;
+    color: #FFFFFF;
 }
 
 i.fa-chevron-up.topLeft {
@@ -228,13 +171,3 @@ div.transparent.bottom:hover ~ i.fa-chevron-right {
     transform: translate(+50%, -50%);
     transition: all 300ms;
 }
-
-
-
-.sandy-stone-beach-ocean-diver-1-hex { color: #E6E2AF; }
-.sandy-stone-beach-ocean-diver-2-hex { color: #A7A37E; }
-.sandy-stone-beach-ocean-diver-3-hex { color: #EFECCA; }
-.sandy-stone-beach-ocean-diver-4-hex { color: #046380; }
-.sandy-stone-beach-ocean-diver-5-hex { color: #002F2F; }
-
-

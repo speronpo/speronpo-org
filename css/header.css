@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: var(--off-white);
+    font-family: "Avenir", sans-serif;
+}
+
+:root {
+    --dark-blue: #5997ac;
+    --light-blue: #a1cbdd;
+    --off-white: #eeede7;
+    --light-pink: #f7aec2;
+    --dark-pink: #af5166;
+}
+
+header {
+    align-items: center;
+    background-color: var(--dark-blue); /*#1E2D3B*/
+    display: flex;
+    height: 75px;
+}
+
+div.headerLeft {
+    height: 75px;
+    background: var(--dark-pink); /*EDCD1F*/
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.headerLeft img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0 0 5px 10px;
+}
+
+div.headerLeft h1 {
+    float: left;
+    padding: 0 0 0 25px;
+
+    font-weight: 500; /*bold*/
+    color: var(--off-white); /*1E2D3B*/
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+div.headerLeft h2 {
+    float: left;
+    padding: 0 25px 0 5px;
+
+    font-weight: lighter;
+    color: var(--off-white); /*1E2D3B*/
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+
+header nav {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header nav li a {
+    padding: 10px 15px;
+
+    font-weight: 500; /*300*/
+    color: var(--off-white); /*FFFFFF*/
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header nav li a:hover, header nav li a.active {
+    color: var(--light-blue); /*EDCD1F*/
+}
