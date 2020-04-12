@@ -1,0 +1,136 @@
+img.top {
+    position: absolute;
+    left: 16.66%;
+    width: 66.66%;
+    height: 33.33vw;
+    top: 125px;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+div.title {
+    position: absolute;
+    left: 50%;
+    top: calc(150px + 16.66vw);
+    transform: translate(-50%, -50%);
+
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 8vw;
+    color: var(--off-white); /*FFFFFF*/
+}
+
+div.team {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    height: auto;
+    margin: calc(50px + 33.33vw) 11.11% 0 11.11%;
+    /*justify-content: space-between;*/
+}
+
+div.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header h3.words {
+    color: var(--dark-pink);
+    font-size: 3vw;
+    display: inline-block;
+}
+
+div.header input {
+    position: relative;
+    transform: scale(3);
+    left: 5%;
+    opacity: 0;
+    z-index: 1000;
+}
+
+div.header i.icon {
+    margin: 5px 2.51%;
+    font-size: 3vw;
+    color: var(--dark-pink);
+
+    transform: rotate(0deg);
+    transition: transform 500ms;
+}
+
+div.checked i.icon {
+    transform: rotate(180deg);
+    transition: all 500ms;
+}
+
+
+div.header.execHeader.checked ~ div.exec {
+    display: none;
+    transition: all;
+}
+
+div.header.comHeader.checked ~ div.com {
+    display: none;
+    transition: all;
+}
+
+div.header.memHeader.checked ~ div.member {
+    display: none;
+    transition: all;
+}
+
+div.team div.group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+
+    transition: all 500ms;
+}
+
+div.person {
+    width: 47.49%;
+    /*background: var(--light-blue);*/
+    background: linear-gradient(to right, var(--dark-blue) 36.5%, var(--light-blue) 36.5%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 0 0 50px 0;
+    display: flex;
+}
+
+div.person img.profile {
+    margin: 4.46% 5% 3% 4.46%; /*4.46% 2.23% 2.23% 5.58%*/
+    width: 27.9%;
+    height: 9.77vw;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.person div.information {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 30px 10px;
+}
+
+/*width: 64.29%;*/
+div.information h4.name {
+    font-size: 2vw;
+    margin: 0 0 5px 0;
+    color: black;
+}
+
+div.information h5.position {
+    margin: 0 0 20px 0;
+    font-size: 1.25vw;
+    color: black;
+
+}
+
+div.information p.description {
+    margin: 0;
+}
+

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -16,7 +17,7 @@
     <body>
         <header>
             <div class="headerLeft" onclick="location.href='/index.html'">
-                <img src="./images/faviconTransparent.png" alt="Spero Logo">
+                <img src="images/faviconTransparent.png" alt="Spero Logo">
 
                 <h1>SPERO</h1>
                 <h2>NPO</h2>
@@ -34,12 +35,215 @@
         </header>
 
 
+        <img src="./images/theTeam.jpg"
+             alt="Two people sitting in front of origami"
+             class="top">
+        <div class="title">The Team</div>
+
+
+        <div class="team">
+            <div class="header execHeader">
+                <h3 class="words">Executive Board</h3>
+                <input type="checkbox"
+                       onclick="this.checked
+                           ? this.parentElement.classList.add('checked')
+                           : this.parentElement.classList.remove('checked')"/>
+                <i class="fas fa-chevron-down icon"></i>
+            </div>
+
+            <div class="group exec">
+                <div class="person">
+                    <img class="profile" src="./images/shaileshsenthilpfp.jpg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Shailesh Senthil</h4>
+                        <h5 class="position">Founder, CEO and Co-Chairman</h5>
+                        <p class="description">Shailesh is a sophomore at Lynbrook High School. He enjoys playing volleyball, conducting biological research, and reading when he’s not working on Spero.</p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/derrickcaipfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Derrick Cai</h4>
+                        <h5 class="position">President and Co-Chairman</h5>
+                        <p class="description">Derrick is in 10th Grade at Lynbrook High School. When he isn’t volunteering for Spero, he enjoys playing basketball, hanging out with friends, and listening to music.</p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Arhan Mulay</h4>
+                        <h5 class="position">Chief Financial Officer (CFO)</h5>
+                        <p class="description">Arhan is a currently sophomore and hoping to be a junior next year at Lynbrook High School. He is also the self-proclaimed best 8-ball player on iMessage and has an extensive amount of knowledge about the doppler effect.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/rohilshahpfp.jpg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Rohil Shah</h4>
+                        <h5 class="position">Chief Marketing Officer (CMO)</h5>
+                        <p class="description">Rohil Shah is a sophomore at Lynbrook High School. Outside of Spero, he plays tennis, does robotics, and enjoys coding and playing Minecraft.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Krishna Ajjarapu</h4>
+                        <h5 class="position">Chief Volunteering Officer (CVO)</h5>
+                        <p class="description">Krishna Ajjarapu is currently a sophomore at Lynbrook High School. Outside of Spero, he competes in Lincoln-Douglas debate, plays tennis, and loves making music.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/ianchenpfp.jpg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Ian Chen</h4>
+                        <h5 class="position">Corporate Secretary</h5>
+                        <p class="description">Ian is currently a sophomore at Lynbrook High School.  Outside of Spero, he serves as an officer in multiple clubs and runs his own business and non-profit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header comHeader">
+                <h3 class="words">Committee Heads</h3>
+                <input type="checkbox"
+                       onclick="this.checked
+                           ? this.parentElement.classList.add('checked')
+                           : this.parentElement.classList.remove('checked')"/>
+                <i class="fas fa-chevron-down icon"></i>
+            </div>
+
+            <div class="group com">
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Keshav Mannem</h4>
+                        <h5 class="position">Committee Head</h5>
+                        <p class="description">Coming Soon!</p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/rishikodavatipfp.jpg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Rishi Kodavati</h4>
+                        <h5 class="position">Committee Head</h5>
+                        <p class="description">Rishi is currently a sophomore at Lynbrook High School. Outside of Spero, he enjoys volleyball, cricket, and robotics.</p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Andy Xu</h4>
+                        <h5 class="position">Committee Head</h5>
+                        <p class="description">Andy is currently a sophomore at Lynbrook. Outside of Spero, he plays volleyball and does nothing more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header memHeader">
+                <h3 class="words">Committee Members</h3>
+                <input type="checkbox"
+                       onclick="this.checked
+                           ? this.parentElement.classList.add('checked')
+                           : this.parentElement.classList.remove('checked')"/>
+                <i class="fas fa-chevron-down icon"></i>
+            </div>
+
+            <div class="group member">
+                <div class="person">
+                    <img class="profile" src="./images/prameshkarthikeyanpfp.jpeg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Pramesh Karthikeyan</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Pramesh is currently a sophomore at Lynbrook High School. Outside of Spero he runs cross country, competes in Public Forum, and loves to spend time with his friends and family. </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/sydnieyupfp.jpg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Sydnie Yu</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Sydnie is currently a sophomore at Lynbrook High School. She is passionate about serving others and enjoys traveling around the world and exploring various different cultures.</p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Kristin Zhao</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Kristin is currently a sophomore at Lynbrook High School. Outside of Spero, she enjoys reading, arts & crafts, singing, and playing the piano.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Aaryan Kainth</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Aaryan is currently a sophomore at Lynbrook. Outside of Spero, he competes in Lincoln-Douglas debate, plays a lot of videogames, and enjoys hanging out with friends.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/demirgencpfp.jpeg" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Demir Genc</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Demir is currently a sophomore at Lynbrook High School. Outside of Spero, he plays water polo, soccer and enjoys traveling and spending time with friends.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Rachana Aluri</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Coming soon!
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Nicholas Huang</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Nick is currently a sophomore at Lynbrook High School. He enjoys playing soccer with his friends and learning new things.
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Michael Ma</h4>
+                        <h5 class="position">Committee Member</h5>
+                        <p class="description">Coming Soon!
+                        </p>
+                    </div>
+                </div>
+                <div class="person">
+                    <img class="profile" src="./images/defaultpfp.png" alt="Person smiling">
+                    <div class="information">
+                        <h4 class="name">Our Volunteers!</h4>
+                        <h5 class="position">We Love Our Volunteers!</h5>
+                        <p class="description">Our Volunteers make Spero possible. Through their time and hard work, Spero has blossomed!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="media">
 
             <i class="fab fa-instagram"
                onclick="window.open('https://www.instagram.com/speronpo/')"></i>
             <i class="fab fa-facebook-f"
                onclick="window.open('https://www.facebook.com/speronpoinc/')"></i>
+            <i class="fab fa-google" onclick="window.open('mailto:speronpo@gmail.com?Subject=Please%20include%20subject%20line%20here')"></i>
+            <div class="email">Open in new tab:&#10;speronpo@gmail.com</div>
 
         </div>
 
