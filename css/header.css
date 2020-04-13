@@ -22,11 +22,11 @@ header {
     align-items: center;
     background-color: var(--dark-blue); /*#1E2D3B*/
     display: flex;
-    height: 75px;
+    height: 5.86vw;
 }
 
 div.headerLeft {
-    height: 75px;
+    height: 5.86vw;
     background: var(--dark-pink); /*EDCD1F*/
     display: flex;
     align-items: center;
@@ -34,50 +34,54 @@ div.headerLeft {
 }
 
 div.headerLeft img {
-    width: 60px;
-    height: 60px;
+    width: 4.69vw;
+    height: 4.69vw;
     float: left;
-    padding: 0 0 5px 10px;
+    padding: 0 0 0.39vw 0.78vw;
 }
 
 div.headerLeft h1 {
     float: left;
-    padding: 0 0 0 25px;
+    padding: 0 0 0 1.95vw;
 
     font-weight: 500; /*bold*/
     color: var(--off-white); /*1E2D3B*/
-    letter-spacing: 1px;
-    font-size: 32px;
+    letter-spacing: 0.08vw;
+    font-size: 2.5vw;
 }
 
 div.headerLeft h2 {
     float: left;
-    padding: 0 25px 0 5px;
+    padding: 0 1.95vw 0 0.39vw;
 
     font-weight: lighter;
     color: var(--off-white); /*1E2D3B*/
-    letter-spacing: 1px;
-    font-size: 32px;
+    letter-spacing: 0.08vw;
+    font-size: 2.5vw;
 }
 
 
 header nav {
     margin-left: auto;
-    margin-right: 25px;
+    margin-right: 1.95vw;
 }
 
+
 header nav li {
+    /*height: 1.45vw;*/
     display: inline-block;
-    padding: 0 25px;
+    padding: 0 1.95vw;
 }
 
 header nav li a {
-    padding: 10px 15px;
+    padding: 0 1.17vw;
+    vertical-align: middle;
 
     font-weight: 500; /*300*/
     color: var(--off-white); /*FFFFFF*/
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.08vw;
+    font-size: 1.25vw;
 }
 
 header nav li a:hover, header nav li a.active {

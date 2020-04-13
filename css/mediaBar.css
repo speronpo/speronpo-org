@@ -3,8 +3,8 @@ div.media {
     position: fixed;
     top: 50%;
     right: 0;
-    width: 50px;
-    height: 150px;
+    width: 3.91vw;
+    height: 11.72vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -13,35 +13,35 @@ div.media {
 
 div.media i.fa-instagram {
     color: var(--off-white); /*white*/
-    font-size: 40px;
+    font-size: 3.13vw;
     cursor: pointer;
 }
 
 div.media i.fa-facebook-f {
     color: var(--off-white); /*white*/
-    font-size: 35px;
+    font-size: 2.73vw;
     cursor: pointer;
-    padding-bottom: 4px;
+    padding-bottom: 0.31vw;
 }
 
 div.media i.fa-google {
     color: var(--off-white); /*white*/
-    font-size: 30px;
+    font-size: 2.34vw;
     cursor: pointer;
 }
 
 div.media div.email {
     background: #000000;
     position: fixed;
-    top: calc(50% + 125px);
-    right: 55px;
+    top: calc(50vh + 9.77vw);
+    right: 4.3vw;
     transform: translate(0%, -50%);
-    padding: 5px;
+    padding: 0.39vw;
     opacity: 0;
 
     font-family: "Proxima Nova", sans-serif;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 0.94vw;
     color: var(--off-white); /*FFFFFF*/
     transition: all 200ms;
     white-space: pre-wrap;

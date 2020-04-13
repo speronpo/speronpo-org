@@ -3,7 +3,7 @@ img.top {
     left: 16.66%;
     width: 66.66%;
     height: 33.33vw;
-    top: 125px;
+    top: 9.77vw;
     z-index: -1;
     filter: blur(5px);
 }
@@ -11,12 +11,12 @@ img.top {
 div.title {
     position: absolute;
     left: 50%;
-    top: calc(150px + 16.66vw);
+    top: 28.38vw;
     transform: translate(-50%, -50%);
 
     font-family: "Proxima Nova", sans-serif;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.08vw;
     font-size: 8vw;
     color: var(--off-white); /*FFFFFF*/
 }
@@ -25,7 +25,7 @@ div.team {
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     height: auto;
-    margin: calc(50px + 33.33vw) 11.11% 0 11.11%;
+    margin: 37.24vw 11.11% 0 11.11%;
     /*justify-content: space-between;*/
 }
 
@@ -52,7 +52,7 @@ div.header input {
 }
 
 div.header i.icon {
-    margin: 5px 2.51%;
+    margin: 0.39vw 2.51%;
     font-size: 3vw;
     color: var(--dark-pink);
 
@@ -96,8 +96,8 @@ div.person {
     /*background: var(--light-blue);*/
     background: linear-gradient(to right, var(--dark-blue) 36.5%, var(--light-blue) 36.5%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    margin: 0 0 50px 0;
+    border-radius: 0.78vw;
+    margin: 0 0 3.91vw 0;
     display: flex;
 }
 
@@ -113,18 +113,18 @@ div.person img.profile {
 div.person div.information {
     display: flex;
     flex-direction: column;
-    margin: 20px 30px 30px 10px;
+    margin: 1.56vw 2.34vw 2.34vw 0.78vw;
 }
 
 /*width: 64.29%;*/
 div.information h4.name {
     font-size: 2vw;
-    margin: 0 0 5px 0;
+    margin: 0 0 0.39vw 0;
     color: black;
 }
 
 div.information h5.position {
-    margin: 0 0 20px 0;
+    margin: 0 0 1.56vw 0;
     font-size: 1.25vw;
     color: black;
 
@@ -132,5 +132,6 @@ div.information h5.position {
 
 div.information p.description {
     margin: 0;
+    font-size: 1.25vw;
 }
 
