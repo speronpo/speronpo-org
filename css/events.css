@@ -3,5 +3,6 @@ div.body {
     padding: 50px;
     font-size: 50px;
     color: black;
+    height: 100vh;
 
 }
