@@ -1,7 +1,70 @@
 div.body {
+    margin-top: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+
+}
+
+div.body div.donate {
+    width: 48vw;
+    background-image: url(../images/heart.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 48vw 48vw;
+    height: 45vw;
+}
+
+div.gfm-embed {
+    margin: 1vw auto 0 auto;
+}
+
+div.join {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45vw;
+    width: 48vw;
+    background: var(--off-white);
+}
+
+div.join h3 {
+    flex: 0 0 100%;
     text-align: center;
-    padding: 50px;
-    font-size: 50px;
-    color: black;
-    height: 100vh;
+    height: 40%;
+    margin: 0;
+    font-size: 7vw;
+    color: #333333;
+}
+
+div.join div.gfm-embed {
+    padding: 0 auto;
+}
+
+div.join button {
+    flex: 0 0 40%;
+    height: 20%;
+    margin-bottom: 3vw;
+    background: var(--dark-pink);
+    border: 0 solid transparent;
+    font-family: "Proxima Nova";
+    font-size: 2vw;
+    cursor: pointer;
+
+}
+
+div.join button.Team {
+    background: var(--light-blue);
+}
+
+div.donate {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
 }
