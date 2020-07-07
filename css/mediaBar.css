@@ -24,7 +24,7 @@ div.media i.fa-facebook-f {
     padding-bottom: 0.31vw;
 }
 
-div.media i.fa-google {
+div.media i.fa-envelope {
     color: var(--off-white); /*white*/
     font-size: 2.34vw;
     cursor: pointer;
@@ -48,7 +48,7 @@ div.media div.email {
     z-index: 999;
 }
 
-i.fa-google:hover ~ div.email {
+i.fa-envelope:hover ~ div.email {
     opacity: 1;
     transition: opacity 200ms;
 }
