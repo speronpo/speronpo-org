@@ -7,12 +7,8 @@ div.body {
 
 }
 
-div.body div.donate {
+div.body img {
     width: 48vw;
-    background-image: url(../images/heart.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 48vw 48vw;
     height: 45vw;
 }
 
@@ -31,13 +27,15 @@ div.join {
     background: var(--off-white);
 }
 
-div.join h3 {
-    flex: 0 0 100%;
-    text-align: center;
-    height: 40%;
-    margin: 0;
+h3.imgText {
+    position: absolute;
+    margin: 18% 0 0 23%;
+    transform: translate(-50%, -50%);
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.08vw;
     font-size: 7vw;
-    color: #333333;
+    color: #FFFFFF; /*FFFFFF*/
 }
 
 div.join div.gfm-embed {
@@ -53,6 +51,7 @@ div.join button {
     font-family: "Proxima Nova";
     font-size: 2vw;
     cursor: pointer;
+    color: #333333;
 
 }
 
