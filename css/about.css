@@ -3,7 +3,7 @@ img.top {
     left: 16.66%;
     width: 66.66%;
     height: 33.33vw;
-    top: 9.77vw;
+    top: 9.77vw; /*9.77*/
     z-index: -1;
     filter: blur(5px);
 }
@@ -21,11 +21,31 @@ div.title {
     color: var(--off-white); /*FFFFFF*/
 }
 
+div#mission {
+    margin: 1vw auto 0 auto;
+    text-align: center;
+    /* background: var(--light-blue); */
+    padding: 1.25vw;
+    border-radius: 0.78vw;
+    width: 60%;
+    background: linear-gradient(to bottom, var(--dark-blue) 3vw, var(--light-blue) 3vw); /*18%*/
+    font-size: 2vw;
+    line-height: 1.75vw;
+}
+
+#mission-text {
+    font-size: 1.5vw;
+}
+
+#bolded {
+    font-weight: 500;
+}
+
 div.team {
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     height: auto;
-    margin: 37.24vw 11.11% 0 11.11%;
+    margin: 40vw 11.11% 0 11.11%; /*37.24*/
     /*justify-content: space-between;*/
 }
 
@@ -93,7 +113,6 @@ div.team div.group {
 
 div.person {
     width: 47.49%;
-    /*background: var(--light-blue);*/
     background: linear-gradient(to right, var(--dark-blue) 36.5%, var(--light-blue) 36.5%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.78vw;
