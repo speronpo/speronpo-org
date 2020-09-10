@@ -229,3 +229,16 @@ a:hover {
   text-decoration: none;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.card-body {
+  height: 300px;
+}
+
